@@ -5,3 +5,4 @@
 
 void alone();
 void TwoPlayers();
+void TreePlayers();
