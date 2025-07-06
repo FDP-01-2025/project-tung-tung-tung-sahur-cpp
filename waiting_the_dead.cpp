@@ -51,6 +51,9 @@ default:
     break;
 }
 }
+void alonefunction()
+{
+}
 
 
 void desition()
