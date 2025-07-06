@@ -93,5 +93,5 @@ sobre que numero sera, intentalo:
     
     )"<<endl; 
     getch();
-}
+{
 }
