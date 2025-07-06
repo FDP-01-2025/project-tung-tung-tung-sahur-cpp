@@ -6,3 +6,8 @@
 void alone();
 void TwoPlayers();
 void TreePlayers();
+using namespace std;
+
+void text(int text)
+{
+}
