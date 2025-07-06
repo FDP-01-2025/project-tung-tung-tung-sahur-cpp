@@ -51,15 +51,17 @@ default:
     break;
 }
 }
+
+
 void desition()
 {
-    string answer;
+string answer;
 cout<<"¿Y que es lo que anhela toda persona? "<<endl;
 cout<<"Escribe que piensas . . ."<<endl;
 cin>>answer;
 cout<<endl<<"¿Piensas que la respuesta es "<<answer<<"?"<<endl;
 getch();
-    if (answer == "dinero" or answer == "Dinero")
+if (answer == "dinero" or answer == "Dinero")
 {
     cout<<"Estas en lo cierto dinero"<<endl;
     getch();
@@ -80,4 +82,13 @@ else
     cout<<"\n ¿Cuidar de los suyos?"<<endl;
     getch();
     cout<<""<<endl;
+
+    cout<<R"(Pues obviamente no, al ser humano solo le interesa el dinero asi que preparate por que para
+ganar su juego deberas tener un puntaje mas alto que el, para eso deberas acertar numeros de un rango del 1 al 3 
+mientras CEA hace tambien su apuesta
+sobre que numero sera, intentalo: 
+    
+    )"<<endl; 
+    getch();
+}
 }
