@@ -6,11 +6,12 @@
 void alone();
 void TwoPlayers();
 void TreePlayers();
+
 using namespace std;
 
 void text(int text)
 {
-  switch (text)
+switch (text)
 {
 case 1:
     cout<<R"(    
@@ -40,6 +41,13 @@ case 1:
     Cea es un ser de grado 2 salido de la dimension de la estatica.
                     Se dedica a hacer apuestas ilegales en el mundo de los vivos, se dice que si le ganas
                     en su propio juego este te otorgara lo que el mundo anhela...
-      }<<endl;
+
+)"   <<endl;
 getch();
+
+    break;
+
+default:
+    break;
+}
 }
