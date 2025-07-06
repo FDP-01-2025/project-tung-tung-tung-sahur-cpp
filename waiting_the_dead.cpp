@@ -40,5 +40,6 @@ case 1:
     Cea es un ser de grado 2 salido de la dimension de la estatica.
                     Se dedica a hacer apuestas ilegales en el mundo de los vivos, se dice que si le ganas
                     en su propio juego este te otorgara lo que el mundo anhela...
-      }
+      }<<endl;
+getch();
 }
