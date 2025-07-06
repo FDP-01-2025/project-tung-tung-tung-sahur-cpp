@@ -59,4 +59,25 @@ cout<<"Escribe que piensas . . ."<<endl;
 cin>>answer;
 cout<<endl<<"¿Piensas que la respuesta es "<<answer<<"?"<<endl;
 getch();
+    if (answer == "dinero" or answer == "Dinero")
+{
+    cout<<"Estas en lo cierto dinero"<<endl;
+    getch();
+}
+else
+{
+    cout<<"Pues te equivocas"<<endl;
+    getch();
+    cout<<"¿Entonces que sera?"<<endl;
+    getch();
+
+    cout<<"\n ¿Ayudar a los demas?"<<endl;
+    getch();
+
+    cout<<"\n ¿Hacer el bien?"<<endl;
+    getch();
+
+    cout<<"\n ¿Cuidar de los suyos?"<<endl;
+    getch();
+    cout<<""<<endl;
 }
