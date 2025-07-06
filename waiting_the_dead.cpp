@@ -51,3 +51,6 @@ default:
     break;
 }
 }
+void desition()
+{
+}
