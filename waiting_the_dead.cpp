@@ -53,4 +53,10 @@ default:
 }
 void desition()
 {
+    string answer;
+cout<<"¿Y que es lo que anhela toda persona? "<<endl;
+cout<<"Escribe que piensas . . ."<<endl;
+cin>>answer;
+cout<<endl<<"¿Piensas que la respuesta es "<<answer<<"?"<<endl;
+getch();
 }
