@@ -20,22 +20,38 @@ El "Anhelo": El juego luego pregunta al jugador qué anhela todo el mundo. Si el
 
 Mecánicas de Apuesta: Para ganar, los jugadores deben adivinar un número entre 1 y 3. En el modo de un solo jugador, tanto el jugador como CEA hacen sus suposiciones. En los modos multijugador, cada jugador hace su suposición.
 
+Condiciones de Victoria/Derrota:
+
+Un Jugador:
+
+Si CEA llega a 10 puntos, CEA declara la victoria, afirmando que el alma del jugador es llevada a la dimensión de la que proviene CEA.
+
+Si el jugador llega a 10 puntos, el jugador gana una gran suma de dinero ($100,000,000,000,000) y se le anima a gastarlo en vanidad.
+
+Multijugador: El primer jugador en alcanzar 10 puntos gana. También hay una condición para un empate si dos jugadores alcanzan 10 puntos simultáneamente.
+
+Las sentencias switch se utilizan para la navegación del menú y la visualización del texto introductorio.
+
+Las sentencias if y else manejan la lógica condicional, como la verificación de las respuestas del jugador, la actualización de las puntuaciones y la determinación de los ganadores.
+
+Los bucles while se utilizan para la validación de entrada, asegurando que los jugadores ingresen números dentro del rango especificado.
+
+Los bucles do-while controlan las rondas principales del juego, continuando hasta que se alcanza una puntuación ganadora.
 ## Equipo
 
-- **Nombre del equipo:** [Nombre del equipo]
+
+- **Nombre del equipo:** [Tung Tung Tung sahur.cpp]
 
 ### Integrantes del equipo
 
-1. **Nombre completo:** [Nombre del estudiante 1]  
-   **Carnet:** [Carnet del estudiante 1]
+1- Nombre completo: Josue Adan Galan Zepada
+Carnet: 00088825
 
-2. **Nombre completo:** [Nombre del estudiante 2]  
-   **Carnet:** [Carnet del estudiante 2]
+2- Nombre completo: David Alejandro Cruz Caballero
+Carnet: 00131025
 
-3. **Nombre completo:** [Nombre del estudiante 3]  
-   **Carnet:** [Carnet del estudiante 3]
-
-(Agregar más integrantes si es necesario)
+3- Nombre completo: Anderson Daniel Hernandez Arucha
+Carnet: 00014925
 
 ## Instrucciones de Ejecución
 
