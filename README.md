@@ -55,6 +55,16 @@ Carnet: 00014925
 
 ## Instrucciones de Ejecución
 
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone [URL del repositorio]
+Clona este repositorio en tu máquina local:
+
+git clone https://github.com/FDP-01-2025/project-tung-tung-tung-sahur-cpp.gitl
+Navega al directorio del proyecto:
+cd WaitingTheDeath 
+
+Compila el código fuente:
+g++ WaitingTheDeath.cpp -o WaitingTheDeath.exe (Para Windows)
+g++ WaitingTheDeath.cpp -o WaitingTheDeath (Para Linux/macOS)
+
+Ejecuta el programa:
+./WaitingTheDeath.exe (Para Windows)
+./WaitingTheDeath (Para Linux/macOS)
