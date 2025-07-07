@@ -3,10 +3,22 @@
 
 ## Descripción del Proyecto
 
-Breve descripción del juego, su propósito, cómo se juega y cualquier otro detalle importante que describa la idea general del proyecto.
+Este proyecto de C++ implementa un juego basado en consola llamado "Waiting the Death". Es un juego de azar donde los jugadores apuestan a números. El juego presenta tanto un modo de un solo jugador contra un personaje de IA llamado CEA, como modos multijugador para dos o tres jugadores.
 
-**Por ejemplo:**
-Este proyecto consiste en un juego de aventuras donde el jugador debe explorar un mundo virtual, recoger objetos, resolver acertijos y enfrentar enemigos. El juego utiliza estructuras de control como `if`, `switch`, y bucles `while` y `for` para generar interacciones dinámicas.
+Propósito del Juego
+El propósito principal del juego es simular un escenario de apuestas de alto riesgo. En el modo de un solo jugador, el jugador intenta ganar contra CEA para obtener lo que "el mundo anhela" (que se revela ser dinero). En los modos multijugador, los jugadores compiten entre sí.}
+
+Cómo Jugar
+
+Iniciar el Juego: Al iniciar el juego, los jugadores son recibidos con el título "Waiting the Death" y se les pide que presionen una tecla para continuar.
+
+Seleccionar Modo de Juego: Los jugadores eligen entre tres opciones: "solitario" (un jugador), "dos jugadores" (dos jugadores) o "tres jugadores" (tres jugadores).
+
+Introducción (Un Jugador): Si se elige "solitario", el juego presenta a CEA, un "ser de grado 2 salido de la dimensión de la estática" que realiza apuestas ilegales. Se explica que ganar contra CEA otorga "lo que el mundo anhela".
+
+El "Anhelo": El juego luego pregunta al jugador qué anhela todo el mundo. Si el jugador responde "dinero", se confirma que están en lo cierto. De lo contrario, el juego aclara que el dinero es la respuesta.
+
+Mecánicas de Apuesta: Para ganar, los jugadores deben adivinar un número entre 1 y 3. En el modo de un solo jugador, tanto el jugador como CEA hacen sus suposiciones. En los modos multijugador, cada jugador hace su suposición.
 
 ## Equipo
 
