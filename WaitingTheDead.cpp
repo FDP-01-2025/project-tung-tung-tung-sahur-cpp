@@ -411,7 +411,7 @@ void ThirdPlayersFunction()
         
         while (FirstPlayerSelect <= 0 || FirstPlayerSelect >= 4)
         {
-            cout<<endl<<FirstPlayerName<<" solo numeros del 1 al 3"<<endl;
+            cout<<endl<<FirstPlayerName<<" solo numeros del 1 al 3 "<<endl;
             cin>>FirstPlayerSelect;
         }
         while (SecondPlayerSelect <= 0 || SecondPlayerSelect >= 4)
@@ -575,7 +575,7 @@ int main(){
   default:
 
   cout<<""<<endl;
-  cout<<"                                    opcion invalida, porfavor ingresa una opcion valida"<<endl;
+  cout<<"                                    opcion invalida, porfavor ingresa una opcion valida "<<endl;
   cout<<"                                           presiona una tecla para continuar . . .";
   getch();
   
